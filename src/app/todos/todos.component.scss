@@ -1,0 +1,13 @@
+$height: 13vh;
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  height: $height;
+}
+
+.konten {
+  height: calc(100vh - #{$height}) !important;
+}
